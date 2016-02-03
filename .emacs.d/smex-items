@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ load-file
+ html-mode
+ sgml-mode
+ shell
+ emacs-lisp-mode
+ nxml-mode
+ eval-buffer
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 3)
+ (customize-variable . 1)
+ (shell . 2)
+ (nxml-mode . 1)
+ (emacs-lisp-mode . 1)
+ (sgml-mode . 1)
+ (html-mode . 1)
+ (load-file . 1)
+)

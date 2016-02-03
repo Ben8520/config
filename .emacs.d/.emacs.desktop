@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Feb  3 16:13:40 2016
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset nil)
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.gitkraken/ssh/gitkraken_Ben-Asus_github_rsa.pub" "~/.ssh/id_rsa.pub" "~/.emacs" "~/Cours_IMAG/CAW/TPWEB/www/html/Bibliographie/styles.css" "/etc/tomcat8/tomcat-users.xml" "/home/ben/.emacs.d" "~/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/ben/Cours_IMAG/CAW/TPWEB/www/html/Bibliographie/bibliotheque.html"
+  "bibliotheque.html"
+  'html-mode
+  '(autopair-mode)
+  1
+  '(477 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/ben/Cours_IMAG/CAW/TPWEB/www/html/Bibliographie/styles.css"
+  "styles.css"
+  'css-mode
+  '(autopair-mode auto-complete-mode)
+  159
+  '(44 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
