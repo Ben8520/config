@@ -85,6 +85,9 @@
 (require 'auto-complete-config)
 (ac-config-default)
 
+;; Shell
+(setenv "PAGER" "/bin/cat")
+
 ;; Message
 (message "---> .emacs loaded <---")
 
