@@ -22,7 +22,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 ;; Minimal interface
 (scroll-bar-mode -1)
@@ -35,6 +35,9 @@
 
 ;; Windows move
 (windmove-default-keybindings 'meta)
+
+;; Revert buffers
+(global-auto-revert-mode t)
 
 ;; Text settings
 (delete-selection-mode t)
@@ -77,17 +80,46 @@
 (setq auto-mode-alist (cons '("\\.xml$" . nxml-mode) auto-mode-alist))
 (autoload 'xml-mode "nxml" "XML editing mode" t)
 
+;; IDO
+(ido-mode t)
+
 ;; Autopair
 (require 'autopair)
 (autopair-global-mode t)
- 
+
+;; Origami settings (Code folding utility)
+(global-origami-mode t)
+(global-set-key (kbd "s-o f") 'origami-show-only-node)
+(global-set-key (kbd "s-o s") 'origami-show-node)
+(global-set-key (kbd "s-o c") 'origami-close-node-recursively)
+(global-set-key (kbd "s-o t") 'origami-toggle-node)
+(global-set-key (kbd "s-o p") 'origami-previous-fold)
+(global-set-key (kbd "s-o n") 'origami-next-fold)
+
 ;; Auto-complete
 (require 'auto-complete-config)
 (ac-config-default)
+
+;; TABBAR
+(require 'tabbar)
+(tabbar-mode t)
+;; Key bidings
+(global-set-key [C-M-left] 'tabbar-backward-tab)
+(global-set-key [C-M-right] 'tabbar-forward-tab)
+(global-set-key [C-M-up] 'tabbar-forward-group)
+(global-set-key [C-M-down] 'tabbar-backward-group)
+;; Sort tabs
+(defun tabbar-add-tab (tabset object &optional append_ignored)
+  (let ((tabs (tabbar-tabs tabset)))
+    (if (tabbar-get-tab object tabset)
+        tabs
+      (let ((tab (tabbar-make-tab object tabset)))
+        (tabbar-set-template tabset nil)
+        (set tabset (sort (cons tab tabs)
+                          (lambda (a b) (string< (buffer-name (car a)) (buffer-name (car b))))))))))
 
 ;; Shell
 (setenv "PAGER" "/bin/cat")
 
 ;; Message
 (message "---> .emacs loaded <---")
-
