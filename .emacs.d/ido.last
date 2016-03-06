@@ -1,0 +1,86 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ben/ensimag-allocateur/" . "tests/")
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/java/" . "BiblioPackage/")
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/" . "java/")
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/" . "main/")
+ ("/home/ben/CoursIMAG/WEB/Biblio/" . "src/")
+ ("/home/ben/CoursIMAG/WEB/" . "Biblio/")
+ ("/home/ben/CoursIMAG/" . "WEB/")
+ ("/home/ben/GHC-2016-SportHashCode/src/main/" . "java/")
+ ("/home/ben/GHC-2016-SportHashCode/src/" . "main/")
+ ("/home/ben/GHC-2016-SportHashCode/" . "src/")
+ ("/home/ben/" . "ensimag-allocateur/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ben/ensimag-allocateur/tests/"
+ "/home/ben/ensimag-allocateur/build/"
+ "/home/ben/ensimag-allocateur/"
+ "/home/ben/ensimag-allocateur/src/"
+ "/home/ben/"
+ "/home/ben/CoursIMAG/WEB/Biblio/src/main/java/BiblioPackage/"
+ "/home/ben/CoursIMAG/WEB/Biblio/src/main/webapp/"
+ "/home/ben/CoursIMAG/"
+ "/home/ben/GHC-2016-SportHashCode/src/main/java/"
+ "/home/ben/GHC-2016-SportHashCode/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test_generic.cc"
+ "test_buddy.cc"
+ "Makefile"
+ "CMakeLists.txt"
+ "mem.h"
+ "mem.c"
+ "memshell.c"
+ ".bashrc"
+ "goPro.sh"
+ "FirstServlet.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ben/ensimag-allocateur/tests/" (22234 64381 278669 543000) "test_run.H" "README.md" "test_generic.h" "../" "test_buddy.cc" "test_cff.h" "test_buddy.h" "test_cff.cc" "test_generic.cc" "test_run_cpp.cc" "test_run_cpp.h" "./" "test_bf.h" "test_bf.cc")
+
+ ("/home/ben/ensimag-allocateur/src/" (22234 63764 708740 518000) "alloctest.cc" "../" "variante.h" "memshell.c" "mem.h" "./" "variante.h.in" "mem.c")
+
+ ("/home/ben/ensimag-allocateur/build/" (22234 63387 358783 949000) "CPackConfig.cmake" "README.md" "CTestTestfile.cmake" "../" "Makefile" "CMakeCache.txt" "cmake_install.cmake" "Testing/" "CMakeFiles/" "alloctest" "./" "memshell" "liballocphy.so" "gtest/" "CPackSourceConfig.cmake")
+
+ ("/home/ben/ensimag-allocateur/" (22230 4474 645871 210000) "src/" "gpl.txt" "README.md" ".git/" "../" "build/" "./" "CMakeLists.txt" "Sujet_SEPC_allocateur_multivar.pdf" "gtest/" "tests/" ".gitignore")
+
+ ("/home/ben/" (22229 65422 942293 696000) "getTPWEB/" ".java/" ".bin/" ".gitconfig" "Pictures/" ".fehbg" "../" ".local/" ".ssh/" "Music/" ".cxoffice/" ".bashrc" ".xinitrc" ".pulse-cookie" ".steampath" ".bash_logout" ".Xmodmap" ".steam/" "Downloads/" ".bash_profile" "CoursIMAG/" ".gnupg/" ".emacs" ".tomcat8/" ".i3/" ".mplayer/" ".bash_history" ".filebot/" "Desktop/" ".pki/" ".mime.types" ".netbeans/" ".emacs.d/" "ensimag-allocateur/" ".statsGit/" ".m2/" "Videos/" "./" ".cache/" ".etr/" ".config/" ".vimrc" ".steampid" ".mozilla/" "TrackMania/" ".viminfo" ".gitignore" ".Xresources" ".Xauthority")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/webapp/" (22211 43435 292014 693000) "META-INF/" "../" "login.html" "stats.html" "WEB-INF/" "./" "styles.css" "register.html" "index.html")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/java/BiblioPackage/" (22211 42499 332122 426000) "AddCustomer.java" "../" "StatImg.java" "./" "FirstServlet.java")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/java/" (22211 33831 899786 728000) "../" "fr/" "BiblioPackage/" "./")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/main/" (22211 34226 979741 254000) "webapp/" "../" "java/" "./" "resources/")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/src/" (22211 32586 713263 385000) "../" "main/" "./")
+
+ ("/home/ben/CoursIMAG/WEB/Biblio/" (22211 34311 969731 472000) "target/" "src/" "../" "nb-configuration.xml" "pom.xml" "./")
+
+ ("/home/ben/CoursIMAG/WEB/" (22211 32586 689930 54000) "../" "./" "Biblio/")
+
+ ("/home/ben/CoursIMAG/" (22211 25108 773293 764000) "../" "WEB/" "./")
+
+ ("/home/ben/GHC-2016-SportHashCode/src/main/java/" (22210 64820 779831 914000) ".#Command.java" "../" "Line.java" "Data.java" "DeliverCommand.java" "Main.java" "Command.java" "WaitCommand.java" "Writer.java" "State.java" "Warehouse.java" "Product.java" "LoadCommand.java" "./" "Drone.java" "Parser.java" "Order.java" "ProductsOrder.java")
+
+ ("/home/ben/GHC-2016-SportHashCode/" (22204 64282 5545 905000) "archive.sh" "target/" "src/" "README.md" ".git/" "rendu.zip" "../" "entrainement/" "pom.xml" "test/" "./" "launch.sh" ".gitignore")
+
+ ("/home/ben/GHC-2016-SportHashCode/test/" (22204 56517 308466 0) "../" "redundancy.in" "busy_day.in" "mother_of_all_warehouses.in" "./")
+
+ ("/home/ben/GHC-2016-SportHashCode/src/main/" (22202 1224 296354 362000) "../" "java/" "./")
+
+ ("/home/ben/GHC-2016-SportHashCode/src/" (22202 5171 259233 394000) "../" "test/" "main/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

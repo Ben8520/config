@@ -31,7 +31,7 @@
 
 ;; Custom theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'hickey t)
+(load-theme 'spolsky t)
 
 ;; Windows move
 (windmove-default-keybindings 'meta)
@@ -47,6 +47,9 @@
 ;; Identation
 (setq tab-width 4
       indent-tabs-mode nil)
+;; C indentation
+(setq c-default-style "k&r")
+(setq-default c-basic-offset 4)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
 ;; No backup files
@@ -82,6 +85,10 @@
 
 ;; IDO
 (ido-mode t)
+
+;; Yasnippet
+(require 'yasnippet)
+(yas-global-mode t)
 
 ;; Autopair
 (require 'autopair)

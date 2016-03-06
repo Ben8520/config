@@ -1,0 +1,64 @@
+[user]
+	name = Benjamin LRX
+	email = benjamin.l@hotmail.fr
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = ~/.gitignore
+[web]
+	browser = firefox
+[push]
+	default = matching
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[github]
+	user = Ben8520
+[alias]
+	a = add --all
+	#############
+	b = branch
+	#############
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	#############
+	d = diff
+	#############
+	l = log --oneline
+	lg = log --oneline --graph --decorate
+	#############
+	ls = ls-files
+	#############
+	o = checkout
+	#############
+	ps = push
+	#############
+	pl = pull
+	#############
+	plr = pull --rebase
+	#############
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbs = rebase --skip
+	#############
+	s = status

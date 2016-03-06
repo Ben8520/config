@@ -60,4 +60,16 @@ export LS_COLORS
 
 PS1='[\u@\h \W]\$ '
 
+# Path variable
+export PATH=$PATH:/home/ben/.bin/
+
+# Aliases for Pacman
+alias pacClean='sudo pacman -Rns $(sudo pacman -Qtdq) 2>/dev/null && sudo pacman -Sc'
+alias pacUpdate='sudo pacman -Suy && pacClean'
+alias pacInstall='sudo pacman -S $1'
+alias pacDelete='sudo pacman -Rns $1'
+
+# Aliases for GoPro
+alias GoProClean='goPro.sh --clean'
+
 screenfetch
