@@ -130,3 +130,4 @@
 
 ;; Message
 (message "---> .emacs loaded <---")
+(put 'erase-buffer 'disabled nil)

@@ -83,3 +83,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Aliases for Pacman
+alias pacClean='sudo pacman -Rns $(sudo pacman -Qtdq) && sudo pacman -Sc'
+alias pacUpdate='sudo pacman -Suy'
+alias pacInstall='sudo pacman -S $1'
+alias pacDelete='sudo pacman -Rns $1'
+
+# Export PATH
+export PATH=$PATH:/home/ben/.bin
+
