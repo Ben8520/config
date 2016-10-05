@@ -2,11 +2,11 @@
 	name = Benjamin LRX
 	email = benjamin.l@hotmail.fr
 [core]
-	editor = vim
+	editor = emacs -q
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.gitignore
 [web]
-	browser = firefox
+	browser = google-chrome
 [push]
 	default = matching
 [color]
@@ -62,3 +62,4 @@
 	rbs = rebase --skip
 	#############
 	s = status
+	ss = status -s -uno
