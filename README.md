@@ -1,2 +1,2 @@
 # Config
-Some configuration files
+Some configuration files for new Linux installation
