@@ -2,7 +2,7 @@
 	name = Benjamin LRX
 	email = benjamin.l@hotmail.fr
 [core]
-	editor = emacs -q
+	editor = emacs -q 2>/dev/null
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.gitignore
 [web]
